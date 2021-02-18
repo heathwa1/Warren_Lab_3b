@@ -84,7 +84,7 @@ function setData(e) {
           fetch(url, {
               method: "POST",
               headers: {
-                  "Content_Type": "application/x-www-form-urlencoded"
+                  "Content-Type": "application/x-www-form-urlencoded"
               },
               body: "q=" + encodeURI(sql)
           })
